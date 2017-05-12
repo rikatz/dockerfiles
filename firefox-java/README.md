@@ -4,9 +4,9 @@ It disables Firefox Auto Update, and adds some sites needed by me in Java's exce
 
 To run this container in Linux Mint 18.1, you should use the following command:
 
-``sudo docker run -it --rm --net host -v /tmp/.X11-unix/X0:/tmp/.X11-unix -v /home/youruser/.Xauthority:/root/.Xauthority -e DISPLAY=unix$DISPLAY --user 0 --name firefox rpkatz/firefox-java /firefox/firefox``
+``sudo docker run -it --rm --net host -v /tmp/.X11-unix/X0:/tmp/.X11-unix -v /home/youruser/.Xauthority:/root/.Xauthority -e DISPLAY=unix$DISPLAY --name firefox rpkatz/firefox-java /firefox/firefox``
 
-This image isn't pushed yet to Docker Hub official repo, so you should build it by the contained Dockerfile
+This image isn't pushed yet to Docker Hub official repo, so you should build it by the contained Dockerfile.
 
 ## TODO
 
